@@ -1,0 +1,865 @@
+<mxfile host="app.diagrams.net" modified="2023-05-05T07:05:57.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6W9e7UaR_0KYPAvukbQO" version="21.2.9" type="device" pages="3">
+  <diagram name="graphql" id="0yb4gtq6QGUCPpU3oqSi">
+    <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JOSfZKutUicRBh-khsr0-1" value="&lt;h1&gt;What is GraphQL?&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-13" target="JOSfZKutUicRBh-khsr0-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="183" y="380" as="sourcePoint" />
+            <mxPoint x="473" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="343" y="380" />
+              <mxPoint x="343" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="150" y="340" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-7" value="RESTAPI" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="480" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-8" value="DB Server" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="683" y="260" width="37" height="66.07" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-13" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="200" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-15" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/all&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/id/:id -&amp;gt; {firstName, lastName, email mobileNo,phono,address:line1,line2, city,state,country}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/:id/courses&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/:id/courses/:courseId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POST /users/add&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PATCH /users/update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/active&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/disabled&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /users/order/:order&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /user/courses/all&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /courses/:id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET /course/name&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="360" width="430" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-20" value="DB Server &lt;br&gt;(SQL, Doc based, Graph)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="672" y="830" width="48.16" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-21" target="JOSfZKutUicRBh-khsr0-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-21" value="Web Client" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="143" y="804" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="714" as="sourcePoint" />
+            <mxPoint x="852" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-24" value="exposes multiple endpoints&amp;nbsp;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196.5" y="950" as="sourcePoint" />
+            <mxPoint x="524" y="875" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="950" />
+              <mxPoint x="364" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-25" value="mobile Client" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="152.5" y="910" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-26" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;GraphQL&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#c51111;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-pack/240/graphql-128.png;imageBackground=default;sketch=1;curveFitting=1;jiggle=2;fontColor=#e52e2e;" parent="1" vertex="1">
+          <mxGeometry x="520" y="840" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-31" value="Graph Query Language" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="465" y="797" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-32" value="any client" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1030" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-33" value="any language/&amp;nbsp;&lt;br&gt;any database" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="600" y="970" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-32" target="JOSfZKutUicRBh-khsr0-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="940" as="sourcePoint" />
+            <mxPoint x="460" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.857;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JOSfZKutUicRBh-khsr0-33" target="JOSfZKutUicRBh-khsr0-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1000" as="sourcePoint" />
+            <mxPoint x="620" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-36" value="HTTP GET /users/ &amp;lt;get users&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;get user name&amp;gt;&lt;br&gt;&amp;lt;get user comments&amp;gt;&lt;br&gt;&amp;lt;get user order&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1110" width="470" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-37" value="&lt;h1&gt;Grapqhl&lt;/h1&gt;&lt;div&gt;client decides what data they need to get (resources/properties)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="143" y="1370" width="637" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1320" as="sourcePoint" />
+            <mxPoint x="940" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-39" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-40" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;GraphQL&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#c51111;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-pack/240/graphql-128.png;imageBackground=default;sketch=1;curveFitting=1;jiggle=2;fontColor=#e52e2e;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1540" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-42" value="http://users/post (only post header)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1530" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1680" as="sourcePoint" />
+            <mxPoint x="840" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-44" value="&lt;h1&gt;Why GraphQL&lt;/h1&gt;&lt;div&gt;1. Fast&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Flexible&lt;/div&gt;&lt;div&gt;3. Easy to Maintain&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="205" y="1710" width="470" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="2040" as="sourcePoint" />
+            <mxPoint x="930" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-46" value="&lt;h1&gt;What is Graph?&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="425.5" y="2100" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-47" target="JOSfZKutUicRBh-khsr0-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="2340" />
+              <mxPoint x="523" y="2520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-51" value="MADE_COMMENTS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;" parent="JOSfZKutUicRBh-khsr0-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.218" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-54" value="HAS_POST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-47" target="JOSfZKutUicRBh-khsr0-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="476" y="2270" />
+              <mxPoint x="945" y="2270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-47" value="Users" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="435.5" y="2300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-48" target="JOSfZKutUicRBh-khsr0-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-60" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;HAS_COMMENTS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="JOSfZKutUicRBh-khsr0-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.2205" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-48" value="Post" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="913" y="2290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-49" value="Comments" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="613" y="2470" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-61" value="id: u001,&lt;br&gt;name:andrew&lt;br&gt;andrew.meadew@gmail.com" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="143" y="2272.5" width="282.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-62" value="id: c001,&lt;br&gt;value:&quot;awesome course&quot;&lt;br&gt;createdOn:&quot;2/02/2023&quot;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="548" y="2580" width="230" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-63" value="id: p001,&lt;br&gt;name:&quot;Deep Dive into the world of graphql course&quot;&lt;br&gt;createdOn:&quot;2/02/2023&quot;,&lt;br&gt;body:&quot;lorempumsum&quot;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="720.16" y="2252.5" width="369.84" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-64" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="32" y="2800" as="sourcePoint" />
+            <mxPoint x="982" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-65" value="&lt;h1&gt;Graphql Queries&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="275" y="2840" width="395" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-66" value="1. graphgql playground&lt;br&gt;&lt;br&gt;2. query&lt;br&gt;&lt;br&gt;3. query only scaler values&lt;br&gt;&lt;br&gt;4. query on nested objects&lt;br&gt;&lt;br&gt;5. query on relationship&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="104.75" y="4240" width="860" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-67" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="3220" as="sourcePoint" />
+            <mxPoint x="980" y="3220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-68" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Graphql Implementation&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 20px; font-weight: normal;&quot;&gt;1. Setup Node Project&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;2. Setup Babel&lt;/div&gt;&lt;div&gt;3. Setup ESModule&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Graphql Specification (Implementation)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. npm install graphql and apollo-server&lt;/div&gt;&lt;div&gt;6.&amp;nbsp;install graphql extensions&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;define types&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8. setup resolvers&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9. setup apollo server&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10. sandbox&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;11. define schema&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;12. Setup GraphQL Client&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="264" y="3280" width="486" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-70" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Query for API&#39;s (like SQL for database)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="232" y="110" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-71" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="59.75" y="3810" as="sourcePoint" />
+            <mxPoint x="770" y="3800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-72" value="&lt;h1&gt;GraphQL Types&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="3820" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-73" target="JOSfZKutUicRBh-khsr0-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-73" value="Scaler" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="104.75" y="3960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="JOSfZKutUicRBh-khsr0-74" target="JOSfZKutUicRBh-khsr0-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-74" value="Custom" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="392.25" y="3960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-75" value="Int&lt;br&gt;Float&lt;br&gt;String&lt;br&gt;Boolean&lt;br&gt;ID" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="87.75" y="4070" width="152.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-77" value="Job&lt;br&gt;User&lt;br&gt;Post" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="392.25" y="4100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JOSfZKutUicRBh-khsr0-79" value="Working with Resolvers&lt;br&gt;&lt;br&gt;1. returning async data&lt;br&gt;&lt;br&gt;2. returning associated data&lt;br&gt;&lt;br&gt;3. returning data based on arguments&lt;br&gt;&lt;br&gt;4. Passing Variable to Query&lt;br&gt;&lt;br&gt;5. Navigating Graphs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="4610" width="450" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VBky6ANtnalJl42jCNoy-1" value="mobileNo,email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="125" y="420" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBky6ANtnalJl42jCNoy-2" value="react native&lt;br&gt;axios, fetch (http://localhost:3000/users/all)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="110" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBky6ANtnalJl42jCNoy-3" value="Schema Defination Language (SDL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="773" y="2450" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBky6ANtnalJl42jCNoy-4" value="Graphql - apollo server" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="600" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBky6ANtnalJl42jCNoy-5" value="client" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="240" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwxOMrlL9idxmwf7aYMN-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="4530" as="sourcePoint" />
+            <mxPoint x="670" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="4920" as="sourcePoint" />
+            <mxPoint x="540" y="4920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-2" value="&lt;h1&gt;Mutation&lt;/h1&gt;&lt;div&gt;just like query, whereas queries are used for read operation, mutation are entry points for write operation&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="90" y="4936" width="530" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Type Mutation {&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;createJob&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;input&lt;/span&gt;:&lt;span style=&quot;color: #569cd6;&quot;&gt; CreateJobInput&lt;/span&gt;): &lt;span style=&quot;color: #9cdcfe;&quot;&gt;Job&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="95.5" y="5120" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-4" value="&#xa;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;CreateJobInput&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;title&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;!&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;description&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;companyId&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;!&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="95.5" y="5280" width="178" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-5" value="2) Define input types for mutation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="88" y="5220" width="345.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-6" value="3) Define how to mutate (add object into database) inside resolvers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="76.63" y="5420" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-7" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Mutation&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;createJob&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;async&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;root&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;, { &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; }, { &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;user&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; }) &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// if (!user) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// &amp;nbsp; throw new Error(&quot;Unauthorized&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;await&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;Job&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;create&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;({&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ...&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;companyId&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;user&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;companyId&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="95.5" y="5470" width="440" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-8" value="Type as Mutation" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="460" y="5080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-9" value="mutation&lt;br&gt;Query which apollo client can invoke to call mutation" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="613" y="5060" width="307" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-10" value="input type to define the&amp;nbsp;&lt;br&gt;structure of incoming request" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="435.5" y="5230" width="307" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=1.021;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UBdukzVITT_4PH-3U-Xz-10" target="UBdukzVITT_4PH-3U-Xz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="5160" as="sourcePoint" />
+            <mxPoint x="420" y="5110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;strokeColor=#FF0000;" parent="1" source="UBdukzVITT_4PH-3U-Xz-8" target="UBdukzVITT_4PH-3U-Xz-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="5334" as="sourcePoint" />
+            <mxPoint x="287" y="5333" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="5140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;strokeColor=#FF0000;" parent="1" source="UBdukzVITT_4PH-3U-Xz-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="5135" as="sourcePoint" />
+            <mxPoint x="224" y="5130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="5150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-16" value="Testing Mutation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="100.63" y="5740" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-18" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 13px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7a92f0;&quot;&gt;mutation&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #41d9d3;&quot;&gt;CreateJob&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ffc18f;&quot;&gt;$input&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #41d9d3;&quot;&gt;CreateJobInput&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;!){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;createJob&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #ffc18f;&quot;&gt;$input&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;title&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;description&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="104.75" y="5780" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-19" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 13px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;&quot;input&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffc18f;&quot;&gt;&quot;Business&amp;nbsp;Analyst&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffc18f;&quot;&gt;&quot;Looking&amp;nbsp;for&amp;nbsp;a&amp;nbsp;smart,&amp;nbsp;energetic,&amp;nbsp;intelligent&amp;nbsp;individual&amp;nbsp;who&amp;nbsp;has&amp;nbsp;a&amp;nbsp;flair&amp;nbsp;for&amp;nbsp;numbers&amp;nbsp;and&amp;nbsp;deep&amp;nbsp;understanding&amp;nbsp;of&amp;nbsp;telecommunication&amp;nbsp;domain.&amp;nbsp;currently&amp;nbsp;need&amp;nbsp;to&amp;nbsp;work&amp;nbsp;in&amp;nbsp;fintech&amp;nbsp;for&amp;nbsp;building&amp;nbsp;financial&amp;nbsp;solution&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b0bef7;&quot;&gt;&quot;companyId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffc18f;&quot;&gt;&quot;oJbb_MAXz0SC78Lm7MtEn&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dee2e7;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="104.75" y="5900" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-20" value="&lt;h1&gt;Subscriptions&lt;/h1&gt;&lt;div&gt;subscription types are used for recieveing changes from the graphql server. It is emitted whenever a changes is recorded into the database. can be used for application realtime chat, realtime alert monitoring system.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="6100" width="790" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="6080" as="sourcePoint" />
+            <mxPoint x="1695.7142857142858" y="6080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-25" value="Define the Subscription type in schema" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="85" y="6700" width="455" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-26" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Subscription&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;jobAdded&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Job&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="125" y="6720" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-27" value="To subscribe to the jobAdded Subscription on the client side" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="125" y="6860" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-29" value="subscription is not supported by Apollo server.&lt;br&gt;use apolllo server middleware&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="6280" width="810" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-30" value="subscription-transport-ws" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="125" y="6380" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-31" value="graphql-ws" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="460" y="6380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-32" value="&lt;span style=&quot;color: rgb(27, 34, 64); font-family: &amp;quot;Source Sans Pro&amp;quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;npm install graphql-ws ws @graphql-tools/schema&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="123.25" y="6636" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-33" value="Note: Use subscription sparingly when 1. U need to fetch large object which has changes in properties&amp;nbsp;&lt;br&gt;or for low latency small amount data change such as chat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="95.5" y="6510" width="570" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-34" value="To start implementing subscription" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="6600" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-36" value="Next, define the resolver for the subscription" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="6923" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-37" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Subscription&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;jobAdded&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;subscribe&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; () &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;pubSub&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;asyncIterator&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;([&lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;JOB_ADDED&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;]),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; },&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; },&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="6990" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-38" value="Subscription should match the graph schema type and should return a subscribe function of type iterable.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="125" y="7150" width="815" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-39" value="To use pubSub, install graphql-subscriptions pakacge and create an instance of PubSub&amp;nbsp;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="7240" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-40" value="Define a trigger for the publish event on event created mutation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="7310" width="673.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-42" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;pubSub&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;publish&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;JOB_ADDED&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;, { &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;jobAdded&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; });&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="123.25" y="7350" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-43" value="Test using graphql sandbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="7420" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBdukzVITT_4PH-3U-Xz-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="47.5" y="7520" as="sourcePoint" />
+            <mxPoint x="817.5" y="7520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-1" value="&lt;h1&gt;React - Apollo Client&lt;/h1&gt;&lt;div&gt;Apollo Client is a state management library that simplifies managing remote and local data with GraphQL. Apollo Client&#39;s intelligent caching and declarative approach to data fetching can help you iterate faster while writing less code. Additionally, if you need custom functionality, you can create your dream client by building extensions on top of Apollo Client.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="7540" width="680" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-2" value="Why Apollo Client" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="143" y="7810" width="407" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-3" value="Declarative Data Fetching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="145.5" y="7880" width="404.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-4" value="Managing Server and Local Data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="7930" width="404.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-5" value="Zero COnfig Caching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="7990" width="404.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-6" value="Vibrant eco system" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="8050" width="404.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-7" value="&lt;h1&gt;Using apollo client with react&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="8110" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-8" value="create a react project" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="135" y="8200" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-9" value="install dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="135" y="8231" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-10" value="connect your client with graphql server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="135" y="8264" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-11" value="fetch data using useQuery" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="8300" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-12" value="caching in react apollo client" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="8340" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-14" value="polling data at fixed interval" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="8382" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVn6ktaKsDXNHYoT2AB-15" value="&lt;h1&gt;Day 3&lt;/h1&gt;&lt;div&gt;Recap&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mutation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Subscription&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Apollo Client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Best Practices&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="6400" width="360" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-1" value="&lt;h1&gt;Queries&lt;/h1&gt;&lt;div&gt;react client provides useQuery hooks to fetch data from graphql server. useQuery hook is the primary API for executing queries against apollo server. to use useQuery, call useQuery and pass it a graphql query string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Executing a query&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Caching Query&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. updating cache query result&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;apollo supports 2 strategies for updating the cache&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;1. Polling (set polling interval to query&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;(useStartPolling and stopPolling function)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;2. Refetching&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Manual Execution using useLazyQuery&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. fetchPolicy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="8440" width="610" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-2" value="&lt;h1&gt;Caching&lt;/h1&gt;&lt;div&gt;1. How Cache Work&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Apollo DevTool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. bypassing the cache using fetchPolicy:&quot;no-cache&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. Persisting a Cache&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;import AsyncStorage from &#39;@react-native-async-storage/async-storage&#39;;&lt;br&gt;import { InMemoryCache } from &#39;@apollo/client&#39;;&lt;br&gt;import { persistCache } from &#39;apollo3-cache-persist&#39;;&lt;br&gt;&lt;br&gt;const cache = new InMemoryCache();&lt;br&gt;&lt;br&gt;persistCache({&lt;br&gt;  cache,&lt;br&gt;  storage: AsyncStorage,&lt;br&gt;}).then(() =&amp;gt; {&lt;br&gt;  // Continue setting up Apollo Client as usual.&lt;br&gt;})&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Resetting the Cache&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="9030" width="490" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-3" value="&lt;h1&gt;@Defer&lt;/h1&gt;&lt;div&gt;use to resolve queries which has late responses or may take time to load.&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;box-sizing: inherit; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 0.9em; padding: 0.1em 0.3em; border-radius: 0.3em; color: rgb(242, 92, 193); background-color: rgb(235, 238, 240);&quot;&gt;@defer&lt;/code&gt;&amp;nbsp;is a directive you can add to queries that will tell your server it can respond to this query in multiple parts&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For instance loading company will load all the jobs of that company. however companies may contain hundreds of jobs which may resolved later, so if we want that company details should be rendered as part of initial load followed by jobs then we can use @defer to defer loading of jobs&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;example&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="130" y="9760" width="670" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-4" value="&lt;h1&gt;Pagination&lt;/h1&gt;&lt;div&gt;technique through which lasrge dataset can be fetched incrementally&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for large graph even a single query can lead to milltions of records being loaded&amp;nbsp;&lt;/div&gt;&lt;div&gt;for example&amp;nbsp;&lt;/div&gt;&lt;div&gt;query getAllJobs{&lt;/div&gt;&lt;div&gt;jobs:{&lt;/div&gt;&lt;div&gt;title&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;can result into millions of jobs loaded.&amp;nbsp;&lt;/div&gt;&lt;div&gt;to resolve this issue, Graphql Server can &lt;b&gt;paginate &lt;/b&gt;their list fields&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How to Implement?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;on Client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="10200" width="693.5" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-5" value="client app" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="155" y="10760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-6" value="server app" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="625" y="10760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-7" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="10880" as="sourcePoint" />
+            <mxPoint x="660.1599999999999" y="10880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-9" value="query getJobs(offsset=0, limit=20" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="235.5" y="10850" width="397.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-10" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="10934" as="sourcePoint" />
+            <mxPoint x="660.1599999999999" y="10934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-11" value="return the first 20 jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="235.5" y="10904" width="397.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-12" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="10989" as="sourcePoint" />
+            <mxPoint x="662.1599999999999" y="10989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-13" value="query getJobs(offset=20, limit=20)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="237.5" y="10959" width="397.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-14" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="11040" as="sourcePoint" />
+            <mxPoint x="661.1599999999999" y="11040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-15" value="return the next 20 jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="236.5" y="11010" width="397.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rNdePs3TMrKwFzSXv6IJ-16" value="Different pagination strategies such as offset based, cursor based, page number based, forwards, backwards&amp;nbsp;&lt;br&gt;&lt;br&gt;apollo client provides flexible cache API that help merge results from a paginated list field, regardless of pagination strategy the graphql server uses&lt;br&gt;&lt;br&gt;provides with Core pagination API&lt;br&gt;&lt;br&gt;fetchMore() function to fetch the next page of results when needed&lt;br&gt;&lt;br&gt;Merge individual page result using apollo Client Cache&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="155" y="11190" width="590" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rr9mFAAlSrKBaszPVl4G" name="database">
+    <mxGraphModel dx="1600" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yrGsHR-pWxEbRoBhLciR-1" value="&lt;h1&gt;Agenda&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-1" value="Introduction to NoSQL Database&lt;br&gt;Types of NoSql Database (Key-value, column type, document, graph)&lt;br&gt;Scaling database and consideration&lt;br&gt;Data model&lt;br&gt;scalability&lt;br&gt;performance&lt;br&gt;Availability&lt;br&gt;Consistency&lt;br&gt;Security&lt;br&gt;integration" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="560" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-2" value="&lt;h1&gt;Introduction to No SQL Database&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;NoSQL is a type of database management system (DBMS) that is designed to handle and store large volumes of unstructured and semi-structured data. Unlike traditional relational databases that use tables with pre-defined schemas to store data, NoSQL databases use flexible data models that can adapt to changes in data structures and are capable of scaling horizontally to handle growing amounts of data.&lt;/p&gt;&lt;p style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;The term NoSQL originally referred to “non-SQL” or “non-relational” databases, but the term has since evolved to mean “not only SQL,” as NoSQL databases have expanded to include a wide range of different database architectures and data models.&lt;/p&gt;&lt;p style=&quot;font-size: 21px; box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 21px; box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Key Features of NoSQL :&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 21px; box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Dynamic schema:&lt;/strong&gt;&amp;nbsp;NoSQL databases do not have a fixed schema and can accommodate changing data structures without the need for migrations or schema alterations.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Horizontal scalability:&lt;/strong&gt;&amp;nbsp;NoSQL databases are designed to scale out by adding more nodes to a database cluster, making them well-suited for handling large amounts of data and high levels of traffic.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Document-based:&amp;nbsp;&lt;/strong&gt;Some NoSQL databases, such as MongoDB, use a document-based data model, where data is stored in semi-structured format, such as JSON or BSON.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Key-value-based:&lt;/strong&gt;&amp;nbsp;Other NoSQL databases, such as Redis, use a key-value data model, where data is stored as a collection of key-value pairs.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Column-based:&amp;nbsp;&lt;/strong&gt;Some NoSQL databases, such as Cassandra, use a column-based data model, where data is organized into columns instead of rows.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Distributed and high availability:&lt;/strong&gt;&amp;nbsp;NoSQL databases are often designed to be highly available and to automatically handle node failures and data replication across multiple nodes in a database cluster.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Flexibility:&lt;/strong&gt;&amp;nbsp;NoSQL databases allow developers to store and retrieve data in a flexible and dynamic manner, with support for multiple data types and changing data structures.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Performance:&amp;nbsp;&lt;/strong&gt;NoSQL databases are optimized for high performance and can handle a high volume of reads and writes, making them suitable for big data and real-time applications.&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;&quot;&gt;&lt;ol style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Category of No SQL Database&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;Document databases: These databases store data as semi-structured documents, such as JSON or XML, and can be queried using document-oriented query languages.&lt;/li&gt;&lt;li style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;Key-value stores: These databases store data as key-value pairs, and are optimized for simple and fast read/write operations.&lt;/li&gt;&lt;li style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;Column-family stores: These databases store data as column families, which are sets of columns that are treated as a single entity. They are optimized for fast and efficient querying of large amounts of data.&lt;/li&gt;&lt;li style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;Graph databases: These databases store data as nodes and edges, and are designed to handle complex relationships between data.&lt;/li&gt;&lt;li style=&quot;font-size: 17px; box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;NoSQL databases are often used in applications where there is a high volume of data that needs to be processed and analyzed in real-time, such as social media analytics, e-commerce, and gaming. They can also be used for other applications, such as content management systems, document management, and customer relationship management.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;font color=&quot;#273239&quot;&gt;&lt;span style=&quot;font-size: 17px; letter-spacing: 0.162px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Advantages of NoSQL:&lt;/strong&gt;&amp;nbsp;There are many advantages of working with NoSQL databases such as MongoDB and Cassandra. The main advantages are high scalability and high availability.&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;High scalability:&lt;/strong&gt;&amp;nbsp;NoSQL databases use sharding for horizontal scaling. Partitioning of data and placing it on multiple machines in such a way that the order of the data is preserved is sharding. Vertical scaling means adding more resources to the existing machine whereas horizontal scaling means adding more machines to handle the data. Vertical scaling is not that easy to implement but horizontal scaling is easy to implement. Examples of horizontal scaling databases are MongoDB, Cassandra, etc. NoSQL can handle a huge amount of data because of scalability, as the data grows NoSQL scale itself to handle that data in an efficient manner.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Flexibility:&lt;/strong&gt;&amp;nbsp;NoSQL databases are designed to handle unstructured or semi-structured data, which means that they can accommodate dynamic changes to the data model. This makes NoSQL databases a good fit for applications that need to handle changing data requirements.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;High availability:&lt;/strong&gt;&amp;nbsp;The auto&amp;nbsp;replication feature in NoSQL databases makes it highly available because in case of any failure, data replicates itself to the previous consistent state.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Scalability:&lt;/strong&gt;&amp;nbsp;NoSQL databases are highly scalable, which means that they can handle large amounts of data and traffic with ease. This makes them a good fit for applications that need to handle large amounts of data or traffic&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Performance:&lt;/strong&gt;&amp;nbsp;NoSQL databases are designed to handle large amounts of data and traffic, which means that they can offer improved performance compared to traditional relational databases.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Cost-effectiveness:&lt;/strong&gt;&amp;nbsp;NoSQL databases are often more cost-effective than traditional relational databases, as they are typically less complex and do not require expensive hardware or software.&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Disadvantages of NoSQL:&lt;/strong&gt;&amp;nbsp;NoSQL has the following disadvantages.&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Lack of standardization&lt;/strong&gt;: &amp;nbsp;There are many different types of NoSQL databases, each with its own unique strengths and weaknesses. This lack of standardization can make it difficult to choose the right database for a specific application&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Lack of ACID compliance:&lt;/strong&gt;&amp;nbsp;NoSQL databases are not fully ACID-compliant, which means that they do not guarantee the consistency, integrity, and durability of data. This can be a drawback for applications that require strong data consistency guarantees.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Narrow focus:&lt;/strong&gt;&amp;nbsp;NoSQL databases have a very narrow focus as it is mainly designed for storage but it provides very little functionality. Relational databases are a better choice in the field of Transaction Management than NoSQL.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Open-source:&lt;/strong&gt;&amp;nbsp;NoSQL is an open-source database. There is no reliable standard for NoSQL yet. In other words, two database systems are likely to be unequal.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Lack of support for complex queries:&amp;nbsp;&lt;/strong&gt;NoSQL databases are not designed to handle complex queries, which means that they are not a good fit for applications that require complex data analysis or reporting.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Lack of maturity:&lt;/strong&gt;&amp;nbsp;NoSQL databases are relatively new and lack the maturity of traditional relational databases. This can make them less reliable and less secure than traditional databases.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Management challenge:&lt;/strong&gt;&amp;nbsp;The purpose of big data tools is to make the management of a large amount of data as simple as possible. But it is not so easy. Data management in NoSQL is much more complex than in a relational database. NoSQL, in particular, has a reputation for being challenging to install and even more hectic to manage on a daily basis.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;GUI is not available:&lt;/strong&gt;&amp;nbsp;GUI mode tools to access the database are not flexibly available in the market.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Backup:&lt;/strong&gt;&amp;nbsp;Backup is a great weak point for some NoSQL databases like MongoDB. MongoDB has no approach for the backup of data in a consistent manner.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Large document size:&lt;/strong&gt;&amp;nbsp;Some database systems like MongoDB and CouchDB store data in JSON format. This means that documents are quite large (big data, network bandwidth, speed), and having descriptive key names actually hurts since they increase the document size.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="1060" height="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-3" value="&lt;h1&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Types of NoSQL database:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;Types of NoSQL databases and the name of the databases system that falls&amp;nbsp;&lt;span style=&quot;letter-spacing: 0.162px;&quot;&gt;in&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;letter-spacing: 0.162px;&quot;&gt;that category are:&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Graph Databases&lt;/strong&gt;: Examples – Amazon Neptune, Neo4j&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Key value store:&lt;/strong&gt;&amp;nbsp;Examples – Memcached, Redis, Coherence&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Tabular:&lt;/strong&gt;&amp;nbsp;Examples – Hbase, Big Table, Accumulo&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;Document-based:&lt;/strong&gt;&amp;nbsp;Examples – MongoDB, CouchDB, Cloudant&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;When should NoSQL be used:&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; border: 0px; font-size: 17px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(39, 50, 57); font-weight: 400; letter-spacing: 0.162px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;When a huge amount of data needs to be stored and retrieved.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;The relationship between the data you store is not that important&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;The data changes over time and is not structured.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;Support of Constraints and Joins is not required at the database level&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px 0px 0px 24px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; line-height: 1.58;&quot;&gt;The data is growing continuously and you need to scale the database regularly to handle the data.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2840" width="1050" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-4" value="&lt;h1&gt;Scaling database and consideration&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Vertical Scaling&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Horizontal Scaling&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;To consider&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp; Database Size and expected Increments&lt;/div&gt;&lt;div&gt;2. TPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. Relationship among data&lt;/div&gt;&lt;div&gt;4. Indexes&lt;/div&gt;&lt;div&gt;5 Sharding&lt;/div&gt;&lt;div&gt;6. Clustering&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt=&quot;Sharding separates rows of a larger table into multiple smaller tables to spread the data across multiple computers.&quot; src=&quot;https://hazelcast.com/wp-content/uploads/2021/12/31_Sharding.png&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3300" width="820" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-5" value="W8DsFYuYdRmeQA9Q" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-6" value="&lt;h1&gt;Intro : MongoDB Atlas&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stores Data in form of Document instead of Tables&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BSON format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Query API&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mongosh as terminal client, Compass as GUI client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="4270" width="790" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-8" value="&lt;h1&gt;Intro: Neo4J&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Graph Database&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stores data in form of Nodes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Nodes grouped under Label&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Have relationship between nodes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3x faster than JOINS for 3rd level search&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="4640" width="790" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0agaFVz3PPlM68RluuA_-9" value="&lt;h1&gt;Security&lt;/h1&gt;&lt;div&gt;OWASP top 10 Security recommendation&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="80" y="5030" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-1" value="CREATE TABLE COURSE(&lt;br&gt;&lt;br&gt;title: VARCHAR(50),&lt;br&gt;description Varchar(150)&lt;br&gt;&lt;br&gt;)&lt;br&gt;&lt;br&gt;insert into Course(columns) (values)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="810" y="250" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-2" value="insert into Course({&lt;br&gt;title:&quot;Angular Frntedn Updated (2023),&lt;br&gt;description:&quot;latet angular 16 course&quot;,&lt;br&gt;createdOn:&quot;&quot;&lt;br&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="250" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-3" value="RDBMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="825" y="193" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-4" value="NOSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="203" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-5" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-5">
+          <mxGeometry width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-7" value="title" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-6">
+          <mxGeometry width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-8" value="description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-6">
+          <mxGeometry x="97" width="96" height="40" as="geometry">
+            <mxRectangle width="96" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-9" value="createdOn" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-6">
+          <mxGeometry x="193" width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-5">
+          <mxGeometry y="40" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-10">
+          <mxGeometry width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-10">
+          <mxGeometry x="97" width="96" height="40" as="geometry">
+            <mxRectangle width="96" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-13" value="null" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-10">
+          <mxGeometry x="193" width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-5">
+          <mxGeometry y="80" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-15" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-14">
+          <mxGeometry width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-14">
+          <mxGeometry x="97" width="96" height="40" as="geometry">
+            <mxRectangle width="96" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-17" value="null" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-14">
+          <mxGeometry x="193" width="97" height="40" as="geometry">
+            <mxRectangle width="97" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-18" target="Mayc-SSzW_tDSSSaLzIa-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-18" value="Course" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-40" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-18">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-20" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-19">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-21" value="courseId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-19">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-18">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-23" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-22">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-24" value="title" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-22">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-18">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-26" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-25">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-27" value="description" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-25">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-18">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-29" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-28">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-30" value="createdOn" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-28">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-31" value="Section" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-40" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-31">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-33" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-32">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-34" value="sectionId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-32">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-31">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-36" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-35">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-37" value="courseId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-35">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-31">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-39" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-38">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-40" value="description" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-38">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-31">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-42" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-41">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-43" value="duration" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-41">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-44" value="Lesson" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-40" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-44">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-46" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-45">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-47" value="lessonId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-45">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-44">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-49" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-48">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-50" value="sectionId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-48">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-44">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-53" value="transcript" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-51">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-44">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-55" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-54">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-56" value="videoUrl" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-54">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-44">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-57">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-59" value="title" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Mayc-SSzW_tDSSSaLzIa-57">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-32" target="Mayc-SSzW_tDSSSaLzIa-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-62" value="fronet end apps" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-190" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-64" target="Mayc-SSzW_tDSSSaLzIa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-64" value="middleware&lt;br&gt;Schema" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-65" target="Mayc-SSzW_tDSSSaLzIa-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-65" value="FE app" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-68" value="interface Student&lt;br&gt;{&lt;br&gt;firstName:string,&lt;br&gt;lastName:string&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="400" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-69" value="" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="610" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-71" value="courses" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="750" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-73" value="orders" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="760" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-77" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1321.25" y="740" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-78" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="740" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-80" value="" style="html=1;dashed=0;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="600" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-79" value="title:&quot;Angular&quot;,&lt;br&gt;description:&quot;latest angular 16 course&quot;,&lt;br&gt;createdOn:&quot;01/05/2023&quot;,&lt;br&gt;&lt;br&gt;sections:[&lt;br&gt;{&lt;br&gt;id:&quot;sec01&quot;,&lt;br&gt;description:&quot;Introduction&quot;,&lt;br&gt;duration:10,&lt;br&gt;lessons:[&lt;br&gt;{transcript:&quot;some text here&quot;,&lt;br&gt;videoUrl:&quot;http://youtube/com/8373&quot;,&lt;br&gt;title:&quot;introduction to web framework&quot;&lt;br&gt;]&lt;br&gt;&lt;br&gt;&lt;br&gt;}]," style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-280" width="490" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-82" value="users" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="630" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-83" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="620" width="21" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-84" value="students" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="740" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-85" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1924.5" y="720" width="21" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-86" target="Mayc-SSzW_tDSSSaLzIa-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-86" target="Mayc-SSzW_tDSSSaLzIa-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-86" value="NodeJS/Java" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-20" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-88" value="rows/columns" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Mayc-SSzW_tDSSSaLzIa-22" target="Mayc-SSzW_tDSSSaLzIa-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mayc-SSzW_tDSSSaLzIa-92" value="ORM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="Mayc-SSzW_tDSSSaLzIa-88">
+          <mxGeometry x="0.771" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EHGu0rGBr3CeXGTbF4Hr" name="jwellery_app_flow">
+    <mxGraphModel dx="1956" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
