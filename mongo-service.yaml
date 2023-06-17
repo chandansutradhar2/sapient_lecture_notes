@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service
+  name: mongo-service
 spec:
   selector:
-   app: nginx
+   app: mongodb
   ports:
     - protocol: TCP
       port: 8080
-      targetPort: 80
+      targetPort: 27017
       
