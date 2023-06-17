@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "kubectx": "^1.0.0"
+  }
+}
